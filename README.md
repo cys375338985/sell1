@@ -1,6 +1,5 @@
-# y
 
->外卖程序
+>mooc vue.js学习项目(http://coding.imooc.com/class/74.html)
 
 ## Build Setup
 
