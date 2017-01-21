@@ -7,9 +7,9 @@ import VueRouter from 'vue-router';
 Vue.use(VueRouter);
 /* eslint-disable no-new */
 const routes = [
-  {path: '/goods', components: goods}
+  {path: '/goods', component: goods}
 ];
-const roter = new VueRouter({
+const router = new VueRouter({
   linkActiveClass: 'active',
   routes
 });
@@ -17,5 +17,6 @@ new Vue({
   el: '#app',
   template: '<App/>',
   components: {App},
-  router: roter
+  router: router
 });
+

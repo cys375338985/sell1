@@ -1,5 +1,5 @@
 
->mooc vue.js学习项目(http://coding.imooc.com/class/74.html)
+>mooc Vue.js高仿饿了么外卖App 2016最火前端框架(http://coding.imooc.com/class/74.html) 学习项目
 
 ## Build Setup
 
