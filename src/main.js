@@ -8,6 +8,7 @@ import seller from './components/seller/seller.vue';
 import retings from './components/retings/retings.vue';
 import VueRouter from 'vue-router';
 import './common/stylus/index.styl';
+
 Vue.use(VueRouter);
 Vue.use(VueResource);
 /* eslint-disable no-new */

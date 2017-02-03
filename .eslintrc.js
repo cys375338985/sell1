@@ -23,5 +23,8 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     'no-multiple-empty-lines': 'off',
     'space-before-blocks': 0,
+    'no-multi-spaces': 'off',
+    'no-proto': 'off',
+    'space-in-parens': 'off'
   }
 }
