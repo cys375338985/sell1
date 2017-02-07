@@ -34,7 +34,7 @@
         </li>
       </ul>
     </div>
-    <shopcart></shopcart>
+    <shopcart :delivery-price="seller.deliveryPrice" :min-price="seller.minPrice"></shopcart>
   </div>
 </template>
 <style lang="stylus" rel="stylesheet/stylus">
@@ -144,7 +144,7 @@
   import shopcart from '../shopcart/shopcart.vue';
   const ERR_OK = 0;
   export default{
-    prop: {
+    props: {
       seller: {
         type: Object
       }
